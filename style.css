@@ -61,17 +61,20 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-around;
+  font-size: 16px;
 }
 
 .left-field {
   width: 445px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 140%;
   text-align: justify;
+  font-weight: bold;
 }
 
 .left-field p {
   margin-top: 50px;
+  font-size: 18px;
 }
 
 .right-field form {
@@ -92,6 +95,7 @@ select {
 .button {
   background-color: #ed4c5c;
   color: #fff;
+  font-size: 18px;
 }
 
 select {
